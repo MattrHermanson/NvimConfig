@@ -43,7 +43,9 @@ return {
         -- lua hooks take a name, a path, and an optional state table
         -- if only one hook is needed, the list may be omitted
         hooks = {
-          add = {},
+          add = function ()
+            require("sessions").save(nil, {})
+          end,
           remove = {},
           rename = {},
           open_pre = {

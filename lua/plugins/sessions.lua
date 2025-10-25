@@ -16,7 +16,7 @@ return {
         --
         -- if a path is provided here, then the path argument for commands and API
         -- functions will use session_filepath as a default if no path is provided.
-        session_filepath = "",
+        session_filepath = ".nvim/session",
 
         -- treat the default session filepath as an absolute path
         -- if true, all session files will be stored in a single directory
