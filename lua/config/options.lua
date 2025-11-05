@@ -4,3 +4,4 @@
 vim.opt.winbar = "%=%m %f"
 vim.opt.relativenumber = false
 vim.g.autoformat = false
+vim.opt.termguicolors = true
