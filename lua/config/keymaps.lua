@@ -10,3 +10,5 @@ vim.keymap.set("n", "<Leader>mo", minimap.open, { desc = "Minimap: Open" })
 vim.keymap.set("n", "<Leader>mr", minimap.refresh, { desc = "Minimap: Refresh" })
 vim.keymap.set("n", "<Leader>ms", minimap.toggle_side, { desc = "Minimap: Toggle Side" })
 vim.keymap.set("n", "<Leader>mt", minimap.toggle, { desc = "Minimap: Toggle" })
+
+vim.keymap.set("n", "<leader>de", vim.diagnostic.open_float, { desc = "[D]iagnostic [E]xpand message" })
